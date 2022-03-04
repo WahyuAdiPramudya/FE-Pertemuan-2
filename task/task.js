@@ -38,7 +38,7 @@ const users = [
  * Hint: Gunakan for/for-of.
  * Note: Ubah function menggunakan arrow function.
  */
-function all() {
+const all = () => {
   for (const key in users) {
     console.log(`${key}: ${users[key]}`);
   }
